@@ -1,0 +1,87 @@
+/* Загальні стилі для компонента */
+.about-us {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-us-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+  }
+  
+  .features {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .feature-card {
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .about-us-footer {
+    margin-top: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .icon-primary {
+    color: #007bff;
+  }
+  
+  .icon-success {
+    color: #28a745;
+  }
+  
+  .icon-danger {
+    color: #dc3545;
+  }
+  
+  .icon-info {
+    color: #17a2b8;
+  }
+  
+  .icon-warning {
+    color: #ffc107;
+  }
+  
+  @media (max-width: 768px) {
+    .feature-card {
+      width: 48%; /* Зменшуємо ширину картки на менших екранах */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feature-card {
+      width: 100%; /* Картки займають всю ширину на мобільних пристроях */
+    }
+  }
+  

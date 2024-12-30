@@ -1,0 +1,14 @@
+.latest-posts {
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 0;
+    overflow-x: auto; 
+  }
+  .main-post {
+    flex: 0 0 auto; 
+  }
+  #lastPostsText{
+    text-align: start;
+    margin-left: 100px;
+  }

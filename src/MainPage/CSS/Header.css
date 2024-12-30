@@ -21,6 +21,16 @@ body {
     justify-content: right;
     padding-right: 40px;
   }
+  .Logout-button{
+    background-color: #db3117;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none; 
+  }
   .button{
     background-color: #007bff;
     color: white;
@@ -33,6 +43,15 @@ body {
   }
   .button:hover{
     background-color: #5283b8;
+  }
+  .logo{
+    margin-right: auto;
+  }
+  .header-title{
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+    margin-right: auto 0;
   }
   
   /* /header */

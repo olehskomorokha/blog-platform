@@ -1,4 +1,4 @@
-.container{
+.header-container{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -107,8 +107,8 @@
     cursor: pointer;
 }
 #submitBtn:active {
-    background: gray; /* Change background to gray when pressed */
-    color: white;     /* Optionally change text color to white when pressed */
+    background: gray;
+    color: white;     
 }
 .gray{
     background: #EAEAEA;

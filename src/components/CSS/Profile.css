@@ -1,0 +1,153 @@
+h4{
+    text-align: start;
+}
+.profile-container {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  .profile-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-card {
+    width: 20%;
+    margin-left: 100px;
+    max-height: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  .avatar-section {
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .name {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .username {
+    margin: 0;
+    color: #888;
+  }
+  
+  .stats {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .stats p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .stats .icon {
+    margin-right: 8px;
+    color: #888;
+  }
+  
+  .profile-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .follow-btn {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .message-btn {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .posts-section {
+    width: 65%;
+  }
+  
+  .posts-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .posts-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .post-card {
+    width: auto;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .post-card-body {
+    text-align: left;
+  }
+  
+  .post-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .post-author{
+    margin: 0px;
+  }
+  .post-content {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .no-posts {
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+  }
+  
+  .user-not-found {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .post-footer{
+    display: flex;
+    width: auto;
+    height: 30px;
+    margin: auto auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .like-btn{
+    font-size: 23px;
+    width: 90px;
+    height: 40px;
+  }
